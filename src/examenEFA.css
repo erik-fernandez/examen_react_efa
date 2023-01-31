@@ -1,0 +1,58 @@
+body {
+    font: normal normal 1em 'Roboto', sans-serif;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    background-color: #888bb1;
+}
+.Button {
+    margin-right: 10px;
+    min-width: 5%;
+    max-width:95%;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #000FBE 0%, #3D3DE0 50%, #000FBE 57.81%, #000FBE 100%);
+    border-radius: 4px;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding: 3px 10px 3px 10px;
+  }
+
+a {
+    text-decoration: underline;
+    color: #a52323;
+    font: Medium Roboto;
+    font-size: 20px;
+}
+
+.user-name {
+    letter-spacing: 0;
+    color: #082671;
+    opacity: 1;
+    font: normal bold 21px 'Roboto', sans-serif, serif;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.tbl-Class{
+    display: block;
+    border: 1px;
+}
+
+.tblClassReFaseUno > div table tbody tr td span {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    align-items: flex-end;
+    color: #7B7B7B;
+}
